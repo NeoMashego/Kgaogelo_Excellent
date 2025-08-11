@@ -1,0 +1,157 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+:root {
+    --white: #FEFCFB;
+    --light-blue: #90E0EF;
+    --blue: #0096C7;
+    --dark-blue: #03045E;
+    --darker-blue: #001D3D;
+
+    --font: 400;
+    --font-medium: 500;
+    --font-semibold: 600;
+    --font-bold: 700;
+}
+
+body{
+    font-optical-sizing: normal;
+    font-size: 1em;
+    margin: 0;
+    background-color: var(--white);
+    color: var(--darker-blue);
+}
+
+/* Navigation Section */
+
+nav{
+    position: relative;
+}
+
+.nav-panel{
+    list-style: none;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    font-size: 1.5rem;
+}
+
+.nav-link{
+    padding: 0 1em 0 0;
+}
+
+.nav-link a{
+    text-decoration: none;
+    padding: 0 0.4em;
+    color: var(--darker-blue);
+}
+
+.nav-link a:hover{
+    text-decoration: underline;
+    text-decoration-color: var(--blue);
+
+}
+
+.nav-link a:active{
+    text-decoration-color: var(--blue);
+}
+
+/* Home Section */
+
+#imgLogo{
+    display: flex;
+    justify-content: center;
+}
+
+.logo{
+    height: 16rem;
+    width: 16rem;
+    /*animation: coinSpin 4s linear infinite;
+    transform-style: preserve-3d; Ensures the element spins in 3D space */
+}
+
+@keyframes coinSpin {
+  from { transform: rotateY(0deg); }
+  to { transform: rotateY(360deg); }
+}
+
+#H-info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#H-info h1{
+    font-size: 4em;
+    font-weight: var(--font-bold);
+    margin: 0;
+    padding: 0;
+}
+
+#H-info p{
+    font-size: 1.2em;
+}
+
+#Personal{
+    display: flex;
+    margin: 2em;
+}
+
+.P-img{
+    height: 10rem;
+    width: 10rem;
+    border-radius: 50%;
+    margin: 1em;
+}
+
+.P-info{
+    padding-left: 1.2em;
+}
+
+.P-info h2{
+    font-size: 2em;
+    margin: 0;
+    padding-bottom: 0.4em;
+    padding-top: 0.5em;
+}
+
+.P-info p{
+    margin: 0;
+    line-height: 1.2;
+}
+
+.P-info p a{
+    color: var(--blue);
+}
+
+.P-info p a:hover{
+    color: var(--dark-blue);
+    text-decoration: underline;
+    text-decoration-color: var(--dark-blue);
+}
+
+/* Footer Section */
+
+#contacts{
+    display: flex;
+    background-color: var(--darker-blue);
+    justify-content: center;
+    align-items: center;
+}
+
+.f-contact{
+    list-style: none;
+    display: flex;
+}
+
+.contact-link{
+    color: var(--white);
+    padding: 0 2em 0 0;
+}
+
+.contact-link:hover{
+    color: var(--light-blue);
+}
