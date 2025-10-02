@@ -1,2 +1,76 @@
 <!DOCTYPE html>
+    <head>
+        <title>KICT Academy</title>
+        <meta charset="UTF-8">
+        <meta name="author" content="Neo Mashego">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./style-apply.css">
+        <!-- Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Lora:ital,wght@0,400..700;1,400..700&family=Roboto+Slab:wght@300&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+
+        <!-- Navigation section -->
+        <nav id="nav">
+            <ul class="nav-panel">
+                <li class="nav-link"><a href="../home.html">Home</a></li>
+                <li class="nav-link"><a href="./videos.html">Videos</a></li>
+                <li class="nav-link"><a href="./apply.html">Apply</a></li>
+            </ul>
+        </nav>
+
+        <!-- Application Form -->
+        <form action="mailto:kgaogeloexcellent10111@gmail.com">
+            <h1 id="title">Application Form</h1>
+            <div class="form-group">
+                <label>First Name: </label>
+                <input type="text" placeholder="FirstName">
+            </div>
+            <div class="form-group">
+                <label>Last Name: </label>
+                <input  type="text"  placeholder="LastName">
+            </div>
+            <div class="form-group">
+                <!--Edit this--> <label>Date of Birth: </label>
+                <input type="date">
+            </div>
+            <div class="form-group">
+                <label>Phone Number: </label>
+                <input type="tel"  placeholder="PhoneNumber">
+            </div>
+            <div class="form-group">
+                <label>Email: </label>
+                <input type="text"  placeholder="Email">
+            </div>
+            <div class="form-group">
+                <label>Gender: </label>
+            <!--Edit this - you can select both genders --><label>Female</label><input type="radio">
+            <!--Edit this--><label>Male</label><input type="radio"></br>
+            </div>
+            <div class="form-group">
+                <label>Tell us how you found us!</label>
+                <textarea name="comment" rows="4" cols="50" placeholder="Enter your comments here..."></textarea>
+            </div>
+            </br>
+            <input id="cancel" type="button" value="Cancel">
+            <input id="submit" type="submit" value="SUBMIT">
+        </form>
+
+        <!-- Footer section -->
+        <footer id="contacts">
+            <ul class="f-contact">
+                <li class="contact-items">
+                    <a class="contact-link" href="tel:+27729927084" alt="+27729927084">
+                        <i class="fa-solid fa-phone"></i></a></li>
+                <li class="contact-items">
+                    <a class="contact-link" href="mailto:kgaogeloexcellent10111@gmail.com" alt="kgaogeloexcellent10111@gmail.com">
+                        <i class="fa-solid fa-inbox"></i></a></li>
+            </ul>
+        </footer>
+    </body>
+    <script src="../function.js"></script>
+    <script src="https://kit.fontawesome.com/6e8bf93744.js" crossorigin="anonymous"></script>
 </html>
