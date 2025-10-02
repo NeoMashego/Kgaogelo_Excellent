@@ -10,6 +10,7 @@
     --blue: #0096C7;
     --dark-blue: #03045E;
     --darker-blue: #001D3D;
+    --red: #B40404;
 
     --font: 400;
     --font-medium: 500;
@@ -69,7 +70,7 @@ nav{
 .logo{
     height: 16rem;
     width: 16rem;
-    animation: coinSpin 4s linear 2s;
+    animation: coinSpin 4s linear infinite;
     transform-style: preserve-3d; /*Ensures the element spins in 3D space */
 }
 
