@@ -69,7 +69,7 @@ nav{
 .logo{
     height: 16rem;
     width: 16rem;
-    animation: coinSpin 4s linear 10s;
+    animation: coinSpin 4s linear 2s;
     transform-style: preserve-3d; /*Ensures the element spins in 3D space */
 }
 
