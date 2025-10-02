@@ -69,8 +69,8 @@ nav{
 .logo{
     height: 16rem;
     width: 16rem;
-    /*animation: coinSpin 4s linear infinite;
-    transform-style: preserve-3d; Ensures the element spins in 3D space */
+    animation: coinSpin 4s linear 10s;
+    transform-style: preserve-3d; /*Ensures the element spins in 3D space */
 }
 
 @keyframes coinSpin {
